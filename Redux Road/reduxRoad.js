@@ -31,7 +31,7 @@ const initialWagonState = {
           ...state,
           supplies: state.supplies - 30,
           days: state.days + 1
-        }
+        };
       }
  //Additional Tasks
       case 'sell' : {
