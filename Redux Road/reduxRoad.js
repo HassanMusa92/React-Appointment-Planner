@@ -33,7 +33,7 @@ const initialWagonState = {
           days: state.days + 1
         }
       }
-      //Additional Tasks
+ //Additional Tasks
       case 'sell' : {
         if (state.supplies <= 20) {
           return state;
